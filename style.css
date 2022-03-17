@@ -11,7 +11,7 @@ h1{
     color: aquamarine;
 }
 
-section{
+.flexable{
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +43,40 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.shadow{
+    box-shadow:10PX 10PX 40PX palegreen;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+    
+
+}
+
+.bottom-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#first{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#second{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: brown;
 }
